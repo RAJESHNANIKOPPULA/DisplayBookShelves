@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="30" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-02T14:13:01 IST" name="Default suite" finished-at="2023-11-02T14:13:57 IST" duration-ms="55778">
+    <groups>
+      <group name="Smoke Test two">
+        <method signature="DisplayBookshelves.waitForGiftCardVisibility()[pri:17, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="waitForGiftCardVisibility" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnGiftCard()[pri:18, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="clickOnGiftCard" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnBirthdayOrAnniversary()[pri:19, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="clickOnBirthdayOrAnniversary" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enteringAmount()[pri:20, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enteringAmount" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnNext()[pri:21, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="clickOnNext" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterRecipientName()[pri:22, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enterRecipientName" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterRecipientEmail()[pri:23, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enterRecipientEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCustomerName()[pri:24, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enterCustomerName" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCustomerEmail()[pri:25, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enterCustomerEmail" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterCustomerMobileNumber()[pri:26, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enterCustomerMobileNumber" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enterMessage()[pri:27, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enterMessage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnConfirm()[pri:28, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="clickOnConfirm" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfErrorMessage()[pri:29, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="screenShotOfErrorMessage" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.displayErrorMessage()[pri:30, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="displayErrorMessage" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Smoke Test two -->
+      <group name="Smoke Test one">
+        <method signature="DisplayBookshelves.testCaseReadJSON()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="testCaseReadJSON" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnBookShelvesMenu()[pri:1, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="clickOnBookShelvesMenu" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.closePopUp()[pri:2, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="closePopUp" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.mouseHoverToPriceFilter()[pri:3, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="mouseHoverToPriceFilter" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.waitForDragAndDropVisibility()[pri:4, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="waitForDragAndDropVisibility" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.dragAndDropOfPriceFilter()[pri:5, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="dragAndDropOfPriceFilter" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.mouseHoverToStrogeTypFilter()[pri:6, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="mouseHoverToStrogeTypFilter" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.openAsStorageType()[pri:7, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="openAsStorageType" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.enablingExcludeOutOfStock()[pri:8, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="enablingExcludeOutOfStock" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.collectingBookShelvesList()[pri:9, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="collectingBookShelvesList" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.displayingBookShelves()[pri:10, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="displayingBookShelves" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfBookShelves()[pri:11, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="screenShotOfBookShelves" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Smoke Test one -->
+      <group name="Regression Test one">
+        <method signature="DisplayBookshelves.mouseHoverOfBrandFilter()[pri:12, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="mouseHoverOfBrandFilter" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.clickOnByAtHomeAsBrand()[pri:13, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="clickOnByAtHomeAsBrand" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.byAtHomeBookShelvesList()[pri:14, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="byAtHomeBookShelvesList" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.displayingByAtHomeBookShelves()[pri:15, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="displayingByAtHomeBookShelves" class="testScenarios.DisplayBookshelves"/>
+        <method signature="DisplayBookshelves.screenShotOfByAtHomeBookShelves()[pri:16, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" name="screenShotOfByAtHomeBookShelves" class="testScenarios.DisplayBookshelves"/>
+      </group> <!-- Regression Test one -->
+    </groups>
+    <test started-at="2023-11-02T14:13:01 IST" name="Default test" finished-at="2023-11-02T14:13:57 IST" duration-ms="55778">
+      <class name="testScenarios.DisplayBookshelves">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:01 IST" name="driverConfig" finished-at="2023-11-02T14:13:08 IST" duration-ms="6735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method is-config="true" signature="screenRecordStart()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:08 IST" name="screenRecordStart" finished-at="2023-11-02T14:13:08 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenRecordStart -->
+        <test-method signature="testCaseReadJSON()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:08 IST" name="testCaseReadJSON" finished-at="2023-11-02T14:13:08 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadJSON -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:08 IST" name="tearDown" finished-at="2023-11-02T14:13:08 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseReadJSON status=SUCCESS method=DisplayBookshelves.testCaseReadJSON()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnBookShelvesMenu()[pri:1, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:08 IST" name="clickOnBookShelvesMenu" finished-at="2023-11-02T14:13:12 IST" duration-ms="3165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBookShelvesMenu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:12 IST" name="tearDown" finished-at="2023-11-02T14:13:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBookShelvesMenu status=SUCCESS method=DisplayBookshelves.clickOnBookShelvesMenu()[pri:1, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="closePopUp()[pri:2, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:12 IST" name="closePopUp" finished-at="2023-11-02T14:13:14 IST" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:14 IST" name="tearDown" finished-at="2023-11-02T14:13:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closePopUp status=SUCCESS method=DisplayBookshelves.closePopUp()[pri:2, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="mouseHoverToPriceFilter()[pri:3, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:14 IST" name="mouseHoverToPriceFilter" finished-at="2023-11-02T14:13:14 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverToPriceFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:14 IST" name="tearDown" finished-at="2023-11-02T14:13:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseHoverToPriceFilter status=SUCCESS method=DisplayBookshelves.mouseHoverToPriceFilter()[pri:3, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="waitForDragAndDropVisibility()[pri:4, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:14 IST" name="waitForDragAndDropVisibility" finished-at="2023-11-02T14:13:15 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForDragAndDropVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:15 IST" name="tearDown" finished-at="2023-11-02T14:13:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitForDragAndDropVisibility status=SUCCESS method=DisplayBookshelves.waitForDragAndDropVisibility()[pri:4, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="dragAndDropOfPriceFilter()[pri:5, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:15 IST" name="dragAndDropOfPriceFilter" finished-at="2023-11-02T14:13:16 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropOfPriceFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="tearDown" finished-at="2023-11-02T14:13:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragAndDropOfPriceFilter status=SUCCESS method=DisplayBookshelves.dragAndDropOfPriceFilter()[pri:5, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="mouseHoverToStrogeTypFilter()[pri:6, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="mouseHoverToStrogeTypFilter" finished-at="2023-11-02T14:13:16 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverToStrogeTypFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="tearDown" finished-at="2023-11-02T14:13:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseHoverToStrogeTypFilter status=SUCCESS method=DisplayBookshelves.mouseHoverToStrogeTypFilter()[pri:6, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="openAsStorageType()[pri:7, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="openAsStorageType" finished-at="2023-11-02T14:13:16 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAsStorageType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="tearDown" finished-at="2023-11-02T14:13:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAsStorageType status=SUCCESS method=DisplayBookshelves.openAsStorageType()[pri:7, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enablingExcludeOutOfStock()[pri:8, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="enablingExcludeOutOfStock" finished-at="2023-11-02T14:13:16 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enablingExcludeOutOfStock -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="tearDown" finished-at="2023-11-02T14:13:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enablingExcludeOutOfStock status=SUCCESS method=DisplayBookshelves.enablingExcludeOutOfStock()[pri:8, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="collectingBookShelvesList()[pri:9, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:16 IST" name="collectingBookShelvesList" finished-at="2023-11-02T14:13:19 IST" duration-ms="3404" status="FAIL">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 30 out of bounds for length 30]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 30 out of bounds for length 30
+at testScenarios.DisplayBookshelves.collectingBookShelvesList(DisplayBookshelves.java:232)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectingBookShelvesList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:19 IST" name="tearDown" finished-at="2023-11-02T14:13:20 IST" duration-ms="514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=collectingBookShelvesList status=FAILURE method=DisplayBookshelves.collectingBookShelvesList()[pri:9, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="displayingBookShelves()[pri:10, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:20 IST" name="displayingBookShelves" finished-at="2023-11-02T14:13:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayingBookShelves -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:20 IST" name="tearDown" finished-at="2023-11-02T14:13:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayingBookShelves status=SUCCESS method=DisplayBookshelves.displayingBookShelves()[pri:10, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="screenShotOfBookShelves()[pri:11, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:20 IST" name="screenShotOfBookShelves" finished-at="2023-11-02T14:13:20 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfBookShelves -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:20 IST" name="tearDown" finished-at="2023-11-02T14:13:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenShotOfBookShelves status=SUCCESS method=DisplayBookshelves.screenShotOfBookShelves()[pri:11, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="mouseHoverOfBrandFilter()[pri:12, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:20 IST" name="mouseHoverOfBrandFilter" finished-at="2023-11-02T14:13:21 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverOfBrandFilter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:21 IST" name="tearDown" finished-at="2023-11-02T14:13:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseHoverOfBrandFilter status=SUCCESS method=DisplayBookshelves.mouseHoverOfBrandFilter()[pri:12, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnByAtHomeAsBrand()[pri:13, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:21 IST" name="clickOnByAtHomeAsBrand" finished-at="2023-11-02T14:13:21 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnByAtHomeAsBrand -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:21 IST" name="tearDown" finished-at="2023-11-02T14:13:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnByAtHomeAsBrand status=SUCCESS method=DisplayBookshelves.clickOnByAtHomeAsBrand()[pri:13, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="byAtHomeBookShelvesList()[pri:14, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:21 IST" name="byAtHomeBookShelvesList" finished-at="2023-11-02T14:13:22 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byAtHomeBookShelvesList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:22 IST" name="tearDown" finished-at="2023-11-02T14:13:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=byAtHomeBookShelvesList status=SUCCESS method=DisplayBookshelves.byAtHomeBookShelvesList()[pri:14, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="displayingByAtHomeBookShelves()[pri:15, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:22 IST" name="displayingByAtHomeBookShelves" finished-at="2023-11-02T14:13:22 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayingByAtHomeBookShelves -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:22 IST" name="tearDown" finished-at="2023-11-02T14:13:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayingByAtHomeBookShelves status=SUCCESS method=DisplayBookshelves.displayingByAtHomeBookShelves()[pri:15, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="screenShotOfByAtHomeBookShelves()[pri:16, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:22 IST" name="screenShotOfByAtHomeBookShelves" finished-at="2023-11-02T14:13:22 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfByAtHomeBookShelves -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:22 IST" name="tearDown" finished-at="2023-11-02T14:13:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenShotOfByAtHomeBookShelves status=SUCCESS method=DisplayBookshelves.screenShotOfByAtHomeBookShelves()[pri:16, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="waitForGiftCardVisibility()[pri:17, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:22 IST" name="waitForGiftCardVisibility" finished-at="2023-11-02T14:13:23 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForGiftCardVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:23 IST" name="tearDown" finished-at="2023-11-02T14:13:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waitForGiftCardVisibility status=SUCCESS method=DisplayBookshelves.waitForGiftCardVisibility()[pri:17, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnGiftCard()[pri:18, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:23 IST" name="clickOnGiftCard" finished-at="2023-11-02T14:13:54 IST" duration-ms="31650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGiftCard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:54 IST" name="tearDown" finished-at="2023-11-02T14:13:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnGiftCard status=SUCCESS method=DisplayBookshelves.clickOnGiftCard()[pri:18, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnBirthdayOrAnniversary()[pri:19, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:54 IST" name="clickOnBirthdayOrAnniversary" finished-at="2023-11-02T14:13:54 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBirthdayOrAnniversary -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:54 IST" name="tearDown" finished-at="2023-11-02T14:13:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBirthdayOrAnniversary status=SUCCESS method=DisplayBookshelves.clickOnBirthdayOrAnniversary()[pri:19, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enteringAmount()[pri:20, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:54 IST" name="enteringAmount" finished-at="2023-11-02T14:13:55 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="tearDown" finished-at="2023-11-02T14:13:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringAmount status=SUCCESS method=DisplayBookshelves.enteringAmount()[pri:20, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnNext()[pri:21, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="clickOnNext" finished-at="2023-11-02T14:13:55 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNext -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="tearDown" finished-at="2023-11-02T14:13:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnNext status=SUCCESS method=DisplayBookshelves.clickOnNext()[pri:21, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enterRecipientName()[pri:22, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="enterRecipientName" finished-at="2023-11-02T14:13:55 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRecipientName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="tearDown" finished-at="2023-11-02T14:13:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterRecipientName status=SUCCESS method=DisplayBookshelves.enterRecipientName()[pri:22, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enterRecipientEmail()[pri:23, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="enterRecipientEmail" finished-at="2023-11-02T14:13:55 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRecipientEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="tearDown" finished-at="2023-11-02T14:13:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterRecipientEmail status=SUCCESS method=DisplayBookshelves.enterRecipientEmail()[pri:23, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enterCustomerName()[pri:24, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="enterCustomerName" finished-at="2023-11-02T14:13:55 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="tearDown" finished-at="2023-11-02T14:13:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterCustomerName status=SUCCESS method=DisplayBookshelves.enterCustomerName()[pri:24, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enterCustomerEmail()[pri:25, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:55 IST" name="enterCustomerEmail" finished-at="2023-11-02T14:13:56 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="tearDown" finished-at="2023-11-02T14:13:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterCustomerEmail status=SUCCESS method=DisplayBookshelves.enterCustomerEmail()[pri:25, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enterCustomerMobileNumber()[pri:26, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="enterCustomerMobileNumber" finished-at="2023-11-02T14:13:56 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerMobileNumber -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="tearDown" finished-at="2023-11-02T14:13:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterCustomerMobileNumber status=SUCCESS method=DisplayBookshelves.enterCustomerMobileNumber()[pri:26, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="enterMessage()[pri:27, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="enterMessage" finished-at="2023-11-02T14:13:56 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="tearDown" finished-at="2023-11-02T14:13:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterMessage status=SUCCESS method=DisplayBookshelves.enterMessage()[pri:27, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnConfirm()[pri:28, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="clickOnConfirm" finished-at="2023-11-02T14:13:56 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConfirm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="tearDown" finished-at="2023-11-02T14:13:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnConfirm status=SUCCESS method=DisplayBookshelves.clickOnConfirm()[pri:28, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="screenShotOfErrorMessage()[pri:29, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="screenShotOfErrorMessage" finished-at="2023-11-02T14:13:56 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOfErrorMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="tearDown" finished-at="2023-11-02T14:13:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screenShotOfErrorMessage status=SUCCESS method=DisplayBookshelves.screenShotOfErrorMessage()[pri:29, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="displayErrorMessage()[pri:30, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="displayErrorMessage" finished-at="2023-11-02T14:13:56 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayErrorMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="tearDown" finished-at="2023-11-02T14:13:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayErrorMessage status=SUCCESS method=DisplayBookshelves.displayErrorMessage()[pri:30, instance:testScenarios.DisplayBookshelves@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:56 IST" name="closingBrowser" finished-at="2023-11-02T14:13:57 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="screenRecordStop()[pri:0, instance:testScenarios.DisplayBookshelves@1ed4ae0f]" started-at="2023-11-02T14:13:57 IST" name="screenRecordStop" finished-at="2023-11-02T14:13:57 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenRecordStop -->
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

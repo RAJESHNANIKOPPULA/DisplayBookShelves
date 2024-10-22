@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Funtional Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Test One(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="collectingBookShelvesList"/>
+          <include name="dragAndDropOfPriceFilter"/>
+          <include name="mouseHoverToPriceFilter"/>
+          <include name="openAsStorageType"/>
+          <include name="mouseHoverToStrogeTypFilter"/>
+          <include name="enablingExcludeOutOfStock"/>
+          <include name="screenShotOfBookShelves"/>
+          <include name="clickOnBookShelvesMenu"/>
+          <include name="displayingBookShelves"/>
+          <include name="waitForDragAndDropVisibility"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Smoke Test One(failed) -->
+  <test thread-count="5" name="Regression Test One(failed)">
+    <groups>
+      <run>
+        <include name="Regression Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="byAtHomeBookShelvesList"/>
+          <include name="screenShotOfByAtHomeBookShelves"/>
+          <include name="displayingByAtHomeBookShelves"/>
+          <include name="clickOnByAtHomeAsBrand"/>
+          <include name="mouseHoverOfBrandFilter"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Regression Test One(failed) -->
+</suite> <!-- Failed suite [Funtional Testing] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Funtional Testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke Test one(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.DisplayBookshelves">
+        <methods>
+          <include name="collectingBookShelvesList"/>
+        </methods>
+      </class> <!-- testScenarios.DisplayBookshelves -->
+    </classes>
+  </test> <!-- Smoke Test one(failed) -->
+</suite> <!-- Failed suite [Funtional Testing] -->
